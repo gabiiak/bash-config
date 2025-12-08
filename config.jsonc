@@ -1,0 +1,143 @@
+{
+    "logo": {
+        "source": "C:/Users/Usuario/OneDrive/Pictures/fotos/calavera.txt"
+    },
+    "modules": [
+        //---SOFTWARE---
+        {
+            "type": "custom",
+            "format": "{#magenta}SOFTWARE (✿◡‿◡)"
+        },
+        //OS
+        {
+            "key": "OS",
+            "keyColor": "green",
+            "type": "os"
+        },
+        //KERNEL
+        {
+            "key": "Kernel",
+            "keyColor": "green",
+            "type": "kernel"
+        },
+        //UPTIME
+        {
+            "key": "Uptime",
+            "keyColor": "green",
+            "type": "uptime"  
+        },
+        //TERMINAL
+        {
+            "key": "Terminal",
+            "keyColor": "green",
+            "type": "terminal"
+        },
+        //WINDOW MANAGER
+        {
+            "key": "WM",
+            "keyColor": "green",
+            "type": "wm"
+        },
+        //BIOS
+        {
+            "key": "BIOS",
+            "keyColor": "green",
+            "type": "bios"
+        },
+        //SHELL
+        {
+            "key": "Shell",
+            "keyColor": "green",
+            "type": "shell"
+        },
+        //FONT
+        {
+            "key": "Font",
+            "keyColor": "green",
+            "type": "terminalfont"
+        },
+        //THEME
+        {
+            "key": "Theme",
+            "keyColor": "green",
+            "type": "theme"
+        },
+
+        "break",
+        //---HARDWARE---
+        {
+            "type": "custom",
+            "format": "{#magenta}HARDWARE `(*>﹏<*)′"
+        },
+        //RESOLUTION
+        {
+            "key": "Resolution",
+            "keyColor": "green",
+            "type": "display"
+        },
+        
+        //CPU
+        {
+            "key": "CPU",
+            "keyColor": "green",
+            "type": "cpu"
+        },
+        //GPU
+        {
+            "key": "GPU",
+            "keyColor": "green",
+            "type": "gpu"
+        },
+        //MEMORY
+        {
+            "key": "Memory",
+            "keyColor": "green",
+            "type": "memory"
+        },
+        //SWAP
+        {
+            "key": "Swap",
+            "keyColor": "green",
+            "type": "swap"
+        },
+        //DISKS
+        {
+            "key": "Disk",
+            "keyColor": "green",
+            "type": "disk"
+        },
+        "break",
+        
+        //SESION
+        {
+            "type": "custom",
+            "format": "{#magenta}SESSION ☆*: .｡. o(≧▽≦)o .｡.:*☆"
+        },
+        //DATE
+        {
+            "key": "Date",
+            "keyColor": "green",
+            "type": "datetime"
+        },
+        //USERS
+        {
+            "key": "Users",
+            "keyColor": "green",
+            "type": "users"
+        },
+        
+        //PLAYER (spotify o yt music)
+        {
+            "key": "Player",
+            "keyColor": "green",
+            "type": "player"
+        },
+        //CANCION
+        {
+            "key": "Media",
+            "keyColor": "green",
+            "type": "media"
+        }
+    ]
+}
+
