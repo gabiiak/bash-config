@@ -1,12 +1,40 @@
 {
     "logo": {
-        "source": "C:/Users/Usuario/OneDrive/Pictures/fotos/calavera.txt"
+        "type": "file",
+        "source": "C:/Users/Usuario/Downloads/ascii.txt",
+        "color": {
+            "1": "#F5E0DC",
+            "2": "#F2CDCD",
+            "3": "#F5C2E7",
+            "4": "#FAB387",
+            "5": "#F9E2AF",
+            "6": "#A6E3A1",
+            "7": "#94E2D5",
+            "8": "#89DCEB",
+            "9": "#74C7EC"
+            },
+        "padding": {
+            "top": 2,
+            "right": 3,
+            "left": 3,
+            "bottom":3
+        }
+        
     },
     "modules": [
+        {
+            "type":"title",
+            "color": {
+                "user": "green",
+                "at": "#F9E2AF",
+                "host": "magenta"
+            }
+        },
+        "break",
         //---SOFTWARE---
         {
             "type": "custom",
-            "format": "{#magenta}SOFTWARE (✿◡‿◡)"
+            "format": "{#magenta}Software owo"
         },
         //OS
         {
@@ -20,6 +48,7 @@
             "keyColor": "green",
             "type": "kernel"
         },
+        /*
         //UPTIME
         {
             "key": "Uptime",
@@ -31,19 +60,22 @@
             "key": "Terminal",
             "keyColor": "green",
             "type": "terminal"
-        },
+        },*/
         //WINDOW MANAGER
         {
             "key": "WM",
             "keyColor": "green",
             "type": "wm"
         },
+        /*
         //BIOS
         {
             "key": "BIOS",
             "keyColor": "green",
             "type": "bios"
         },
+        */
+
         //SHELL
         {
             "key": "Shell",
@@ -56,26 +88,28 @@
             "keyColor": "green",
             "type": "terminalfont"
         },
+        /*
         //THEME
         {
             "key": "Theme",
             "keyColor": "green",
             "type": "theme"
         },
-
+        */
         "break",
         //---HARDWARE---
         {
             "type": "custom",
-            "format": "{#magenta}HARDWARE `(*>﹏<*)′"
+            "format": "{#magenta}Hardware uwu"
         },
+        /*
         //RESOLUTION
         {
             "key": "Resolution",
             "keyColor": "green",
             "type": "display"
         },
-        
+        */
         //CPU
         {
             "key": "CPU",
@@ -94,12 +128,14 @@
             "keyColor": "green",
             "type": "memory"
         },
+        /*
         //SWAP
         {
             "key": "Swap",
             "keyColor": "green",
             "type": "swap"
         },
+        */
         //DISKS
         {
             "key": "Disk",
@@ -111,7 +147,7 @@
         //SESION
         {
             "type": "custom",
-            "format": "{#magenta}SESSION ☆*: .｡. o(≧▽≦)o .｡.:*☆"
+            "format": "{#magenta}Sesion nwn"
         },
         //DATE
         {
@@ -125,19 +161,21 @@
             "keyColor": "green",
             "type": "users"
         },
-        
+        /*
         //PLAYER (spotify o yt music)
         {
             "key": "Player",
             "keyColor": "green",
             "type": "player"
         },
+        */
         //CANCION
         {
             "key": "Media",
             "keyColor": "green",
             "type": "media"
-        }
+        },
+        "break"
     ]
 }
 
