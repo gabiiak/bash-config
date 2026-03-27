@@ -32,10 +32,6 @@
         },
         "break",
         //---SOFTWARE---
-        {
-            "type": "custom",
-            "format": "{#magenta}Software owo"
-        },
         //OS
         {
             "key": "OS",
@@ -98,10 +94,6 @@
         */
         "break",
         //---HARDWARE---
-        {
-            "type": "custom",
-            "format": "{#magenta}Hardware uwu"
-        },
         /*
         //RESOLUTION
         {
@@ -144,11 +136,6 @@
         },
         "break",
         
-        //SESION
-        {
-            "type": "custom",
-            "format": "{#magenta}Sesion nwn"
-        },
         //DATE
         {
             "key": "Date",
